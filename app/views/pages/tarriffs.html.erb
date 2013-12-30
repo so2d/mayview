@@ -1,23 +1,35 @@
 <% provide(:title, 'Tarriffs') %>
-<div class="center hero-unit">
+<div class="center">
 <h1>Tarriffs</h1>
 </div>
+<br>
+<table class="table">
+	<tr>
+		<td>Single room
+		<td>£30 per night
+	</tr>
+	<tr>
+		<td>Twin room
+		<td>£50 per night
+	</tr>
+	<tr>
+		<td>*Twin room en-suite
+		<td>£60 per night
+	</tr>
+	<tr>
+		<td>*Double room en-suite
+		<td>£60 per night
+	</tr>
+	<tr>
+		<td>Triple room
+		<td>£75 per night
+	</tr>
+</table>
 
-Single room £30 per night
-<br>
-Twin room £50 per night
-<br>
-*Twin room en-suite £60 per night
-<br>
-*Double room en-suite £60 per night
-<br>
-Triple room £75 per night
+<h6>* This room consists of a shower/wc</h6>
 <br>
 If you have any questions or problems with making a booking, please contact us. 
 Please note that the above rates are per room, and they include continental or full English breakfast.
-<br><br>
-* This room consists of a shower/wc
-<br><br>
 
-Please click here to go the booking
-<li><%= link_to "Go to Booking page", book_path %></li>
+<br><br>
+<%= link_to "Go to Booking page", book_path %></li>

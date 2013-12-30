@@ -22,4 +22,14 @@ class PagesController < ApplicationController
 
   def access
   end
+  
+  def directions
+  end
+  
+  def breakfast
+  end
+  
+  def internet
+  end
+  
 end

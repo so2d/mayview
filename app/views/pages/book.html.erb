@@ -1,18 +1,23 @@
 <% provide(:title, 'Book Online') %>
-<div class="center hero-unit">
+<div class="center">
 <h1>Book Online</h1>
 </div>
-
-If you are unable to secure the booking you require from our online booking system, or would like to speak with us first, please feel free to call us or send an email.
-
-Please click on the button above to check room availability and make an immediate booking. 
-The room rates will be displayed when you enter your requirements.  Please call for more details.
-You can make your booking right now, and you will receive an email to confirm your reservation immediately. 
 <br>
+<div class="center hero-unit">
+<h2>
+You can make your booking right now. Please click on the button below to check room availability and make an immediate booking. The room rates will be displayed when you enter your requirements.
+You will receive an email to confirm your reservation immediately. We look forward to seeing you.
+</h2>
+<%= link_to "Book now!", "http://uk-bookings.eviivo.com/eviivo.Distribution.Presentation/MyWebsite/Details.aspx?ContentID=48510&amp;IndustryType=1", class: "btn btn-large btn-primary" %>
 
-<li><a href="http://uk-bookings.eviivo.com/eviivo.Distribution.Presentation/MyWebsite/Details.aspx?ContentID=48510&amp;IndustryType=1">Book Now</a></li>
 
+</div>
+
+<br>
+If you are unable to secure the booking you require from our online booking system, or would like to speak with us first, please feel free to call us on +44 230 8022 0907 or send an <%= link_to "email", "mailto:info@mayview.co.uk" %>
+
+<h2>
 We accept most debit and credit cards.
-<br>
-<%= link_to image_tag("paymentlogo.jpg", alt: "Paymentlogo"), tarriffs_path %>
 
+<%= link_to image_tag("paymentlogo.jpg", alt: "Paymentlogo"), tarriffs_path %>
+</h2>
