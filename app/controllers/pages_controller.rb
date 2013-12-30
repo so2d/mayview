@@ -20,4 +20,6 @@ class PagesController < ApplicationController
   def photos
   end
 
+  def access
+  end
 end

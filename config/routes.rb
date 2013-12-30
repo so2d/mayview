@@ -8,6 +8,7 @@ Mayview::Application.routes.draw do
   match '/tarriffs', to:  'pages#tarriffs', via: 'get'
   match '/find', to:  'pages#find', via: 'get'
   match '/photos', to:  'pages#photos', via: 'get'
+  match '/access', to: 'pages#access', via: 'get'
   
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
