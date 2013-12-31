@@ -2,16 +2,19 @@
 <div class="center">
 </div>
 
+<div class="table">
 <br><br>
 <table>
 	<tr>
     <td><%= link_to image_tag("front2.jpg", width: '512', height: '50', alt: "diningoranges"), '' %>
 	<td>
-	<td>
-		<h2>023 8022 0907</h2>
+	<td><%= render 'layouts/contact' %>
+	<%= link_to "Make your booking right away!", "http://uk-bookings.eviivo.com/eviivo.Distribution.Presentation/MyWebsite/Details.aspx?ContentID=48510&amp;IndustryType=1", class: "btn btn-large btn-primary" %>
 	</td>
 	</tr>
 </table>
+</div>
+
 <br>
 <h4>
 3 Star Quality Bed and Breakfast in Southampton City Centre.
