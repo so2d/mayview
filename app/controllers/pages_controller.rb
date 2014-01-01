@@ -32,4 +32,6 @@ class PagesController < ApplicationController
   def internet
   end
   
+  def admin
+  end
 end
